@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Extract"
+  short_description: "Extract academic source materials from arXiv or OpenReview inputs and handle non-arXiv PDFs with MinerU in background, inline, or manual mode"
+  default_prompt: "Use $paper-extract when the user provides an academic PDF, technical report PDF, proposal PDF, preprint PDF, an explicit arXiv ID or arXiv URL, or an OpenReview forum ID or forum URL and wants local source materials staged under ./papers by downloading arXiv LaTeX sources, downloading public OpenReview submission PDFs plus metadata, and then handling non-arXiv PDFs with MinerU in background mode by default, inline mode only on explicit request, or manual mode when the user wants a copyable command."

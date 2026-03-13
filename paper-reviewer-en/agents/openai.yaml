@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Reviewer EN"
+  short_description: "Review local LaTeX or Markdown papers and optionally use OpenReview context via a Python interpreter that can import openreview"
+  default_prompt: "Use $paper-reviewer-en to review an academic paper or manuscript from local LaTeX source files, a LaTeX project directory, or Markdown documents, write a Chinese evidence-grounded peer-review review.md beside the input, and keep extra notes as auxiliary checks only. If the user explicitly asks for OpenReview forum, reviews, rebuttal, or discussion materials, first check whether the current python3 can import openreview; if not, ask for an absolute python_path such as /Users/yuzy/.venv/bin/python3 before doing any OpenReview-related work. If the input is only a PDF, image, or screenshot, first ask for a readable .tex or .md source. Do not use this skill for code review, thesis review, or NSFC proposal review."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Analyzer"
+  short_description: "Analyze CV/CG papers from LaTeX or Markdown, proactively use public OpenReview reviews when available, and write a local overview.md"
+  default_prompt: "Use $paper-analyzer to analyze a computer vision or graphics paper from local LaTeX source files, a LaTeX project directory, or Markdown documents, proactively check public OpenReview reviews before finalizing the analysis, and write a Chinese evidence-grounded overview.md beside the input. If the current python3 cannot import openreview, ask for an absolute python_path, but still keep an `openreview` chapter with an explicit status note when public review content cannot be fetched. If the input is only a PDF, image, or screenshot, first ask for a readable .tex or .md source."
